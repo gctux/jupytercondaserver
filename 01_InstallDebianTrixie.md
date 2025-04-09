@@ -39,4 +39,16 @@ Passwort:
 root@jupyterserver:/home/adminuser#
 ```
 
+## Installation von sudo
 
+Nun installieren wir das Programm sudo:
+
+```
+root@jupyterserver:/home/adminuser# apt install -y sudo
+```
+
+Mit diesem Programm kann adminuser Programme mit Administratorrrechten ausführen. Dauzu müssen wir ihn noch zur Gruppe sudo hinzufügen:
+
+```
+root@jupyterserver:/home/adminuser# /sbin/adduser adminuser sudo
+```
