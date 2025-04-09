@@ -1,2 +1,5 @@
 # Einrichten eines Jupyterhubservers auf der Basis von Debian Trixie und Conda
-[Installation von Debian Trixie](InstallDebianTrixie.md)
+
+
+
+[Schritt 1: Installation von Debian Trixie](01_InstallDebianTrixie.md)
