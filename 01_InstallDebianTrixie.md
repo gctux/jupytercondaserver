@@ -24,8 +24,19 @@ Wenn man direkt vor dem Rechner sitzt kann man sich direkt anmelden, z.B mit dem
 **Powershell:**
 
 ```
-C:\Users\user> ssh adminuser@rechnername
+C:\Users\user> ssh adminuser@jupyterserver
 ```
 
+Nach der Anmeldung sieht man das Linuxprompt:
+
+```
+adminuser@jupyterserver:~$
+```
+Um Administratorrechte zu erlangen gibt man jetzt das Komando su ein. Danach wird man nach dem root-Passwort gefragt. Nach Eingabe dieses Passworts besitzt man Administraorrechte:
+```
+adminuser@jupyterserver:~$ su
+Passwort:
+root@jupyterserver:/home/adminuser/
+```
 
 
