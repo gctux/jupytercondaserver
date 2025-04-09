@@ -36,7 +36,7 @@ Um Administratorrechte zu erlangen gibt man jetzt das Komando su ein. Danach wir
 ```
 adminuser@jupyterserver:~$ su
 Passwort:
-root@jupyterserver:/home/adminuser/
+root@jupyterserver:/home/adminuser#
 ```
 
 
