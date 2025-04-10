@@ -7,4 +7,4 @@ Bei der Linuxdistribution viel die Wahl auf resourcenschonendes Komandozeilensys
 
 
 [Schritt 1: Installation von Debian Trixie](01_InstallDebianTrixie.md)
-[Schritt 1: Installation von Conda](02_InstallConda.md)
+[Schritt 2: Installation von Conda](02_InstallConda.md)
