@@ -51,4 +51,23 @@ Mit diesem Programm kann adminuser Programme mit Administratorrrechten ausführe
 
 ```
 root@jupyterserver:/home/adminuser# /sbin/adduser adminuser sudo
+root@jupyterserver:/home/adminuser# /sbin/reboot
+```
+Nach der nächsten Anmeldung kann man das Programm sudo benutzen.
+
+## Update des Systems
+
+Von Zeit zu Zeit sollte ein vollständiges Update des Systems durchgeführt werden.
+
+Als su:
+
+```
+adminuser@jupyterserver:~$ su
+Passwort:
+root@jupyterserver:/home/adminuser#
+root@jupyterserver: apt -y update && apt -y dist-upgrade 
+```
+Oder mit sudo:
+```
+adminuser@jupyterserver:~$ sudo apt -y update && sudo apt -y dist-upgrade 
 ```
